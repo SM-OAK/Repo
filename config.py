@@ -23,13 +23,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "22321078"))
+API_HASH = environ.get("API_HASH", "9960806d290cf4170e43355fcc3687ac")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8470211855:AAEcGaw7JlH4sHRuXS6L4BTC8rG9HkRJowQ")
 
 PICS = (environ.get('PICS', 'https://envs.sh/_Rp.png')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1679112664').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6226520145').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "Svadvance2_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
